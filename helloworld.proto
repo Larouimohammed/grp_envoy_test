@@ -3,8 +3,7 @@ syntax = "proto3";
 package helloworld;
 
 // Specify the Go package path
-option go_package = "'https://github.com/Larouimohammed/grp_envoy_test.git";
-
+option go_package = "grpc_envoy_test/helloworld;helloworld";
 service Greeter {
   rpc SayHello(HelloRequest) returns (HelloReply) {}
   rpc LotsOfReplies(HelloRequest) returns (stream HelloReply) {}

@@ -6,8 +6,7 @@ import (
     "net"
     "time"
 
-   pb "github.com/Larouimohammed/grpc_envoy_test/helloworld"
-
+    pb "grpc_envoy_test/helloworld"
     "google.golang.org/grpc"
 )
 
